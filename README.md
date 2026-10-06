@@ -16,3 +16,7 @@ streamlit run app/app.py
 ## Scope
 
 This is a practice project, not a production dashboard — one data source, three static charts, no filters or interactivity beyond what Streamlit gives you for free. `app/utils.py` has the actual data-shaping functions (`get_top_directors`, `get_type_counts`, `get_top_categories`) if you want to see how the aggregations work.
+
+## Data
+
+`data/netflix-titles.csv` is the "Netflix Movies and TV Shows" dataset by Shivam Bansal on Kaggle (https://www.kaggle.com/datasets/shivamb/netflix-shows), the 2019 snapshot. It's included only so the app runs out of the box; the dataset keeps its own license on Kaggle, and the MIT license in this repo covers my code, not the data. Netflix is a trademark of Netflix, Inc.; this project isn't affiliated with it.
